@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23407d20-445d-4a6e-97ea-83a04ad26db2" name="Default Changelist" comment="" />
+    <list default="true" id="23407d20-445d-4a6e-97ea-83a04ad26db2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DVS_Analysis/plotly.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/wind_rose.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/execute_functions/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bar_box.png" beforeDir="false" afterPath="$PROJECT_DIR$/bar_box.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/execute_functions/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/execute_functions/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/execute_functions/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/execute_functions/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/DVS_ANALYSIS_FUNCTIONAL.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/DVS_ANALYSIS_FUNCTIONAL.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scatter.png" beforeDir="false" afterPath="$PROJECT_DIR$/scatter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/execute_functions/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/execute_functions/home.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,13 +26,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/execute_functions/views.py">
+        <entry file="file://$PROJECT_DIR$/templates/execute_functions/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="168">
+              <caret line="72" column="42" selection-start-line="72" selection-start-column="42" selection-end-line="72" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/execute_functions/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="89" selection-start-line="12" selection-start-column="89" selection-end-line="12" selection-end-column="89" />
             </state>
           </provider>
         </entry>
@@ -35,17 +53,30 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>plot</find>
+      <find>validate</find>
+      <find>confi</find>
+      <find>plo</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/DVS_Analysis/urls.py" />
-        <option value="$PROJECT_DIR$/execute_functions/urls.py" />
         <option value="$PROJECT_DIR$/DVS_Analysis/settings.py" />
         <option value="$PROJECT_DIR$/execute_functions/poc.py" />
         <option value="$PROJECT_DIR$/notebooks/DVS_ANALYSIS.ipynb" />
-        <option value="$PROJECT_DIR$/templates/execute_functions/home.html" />
         <option value="$PROJECT_DIR$/notebooks/DVS_ANALYSIS_FUNCTIONAL.ipynb" />
+        <option value="$PROJECT_DIR$/notebooks/plotly_interavtive.ipynb" />
+        <option value="$PROJECT_DIR$/execute_functions/urls.py" />
         <option value="$PROJECT_DIR$/execute_functions/views.py" />
+        <option value="$PROJECT_DIR$/templates/execute_functions/base.html" />
+        <option value="$PROJECT_DIR$/templates/execute_functions/home.html" />
       </list>
     </option>
   </component>
@@ -55,18 +86,47 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
               <item name="DVS_Analysis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DVS_Analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DVS_Analysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DVS_Analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DVS_Analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="DVS_Analysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DVS_Analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DVS_Analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DVS_Analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DVS_Analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="execute_functions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -82,12 +142,15 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\inexture\Python\client\dvs_poc\DVS_Analysis" />
+      <recent name="G:\inexture\Python\data_analysis\DVS_Analysis\notebooks" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\inexture\Python\client\dvs_poc\DVS_Analysis\DVS_Analysis" />
+      <recent name="G:\inexture\Python\client\dvs_poc\DVS_Analysis\notebooks" />
       <recent name="G:\inexture\Python\data_analysis\DVS_Analysis\notebooks" />
       <recent name="G:\inexture\Python\data_analysis\DVS_Analysis\execute_functions" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\inexture\Python\data_analysis\DVS_Analysis\notebooks" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -143,21 +206,24 @@
       <workItem from="1553773309626" duration="8960000" />
       <workItem from="1554096058632" duration="7888000" />
       <workItem from="1554117595484" duration="1160000" />
+      <workItem from="1554201258381" duration="14343000" />
+      <workItem from="1554269374704" duration="752000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19612000" />
+    <option name="totallyTimeSpent" value="34707000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32991454" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33504274" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.45128205" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -166,7 +232,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32991454" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.4940171" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -232,26 +298,6 @@ print(a)</expression-string>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DVS_Analysis/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="20" column="74" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
-          <folding>
-            <element signature="e#636#668#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/execute_functions/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/1103010100/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
@@ -305,14 +351,13 @@ print(a)</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/execute_functions/home.html">
+    <entry file="file://$PROJECT_DIR$/notebooks/plotly_interavtive.ipynb" />
+    <entry file="file://$PROJECT_DIR$/DVS_Analysis/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="57" column="69" selection-start-line="57" selection-start-column="69" selection-end-line="57" selection-end-column="69" />
+        <state relative-caret-position="183">
+          <caret line="20" column="74" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#636#668#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -324,13 +369,61 @@ print(a)</expression-string>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/execute_functions/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/plotly/offline/offline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="313" column="4" selection-start-line="313" selection-start-column="4" selection-end-line="313" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/execute_functions/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="67">
+          <caret line="54" column="31" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notebooks/wind_rose.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DVS_Analysis/plotly.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/execute_functions/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="89" selection-start-line="12" selection-start-column="89" selection-end-line="12" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="436" column="4" selection-start-line="436" selection-start-column="4" selection-end-line="436" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/execute_functions/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="72" column="42" selection-start-line="72" selection-start-column="42" selection-end-line="72" selection-end-column="42" />
         </state>
       </provider>
     </entry>

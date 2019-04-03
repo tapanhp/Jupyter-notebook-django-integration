@@ -6,4 +6,5 @@ app_name = 'execute_functions'
 
 urlpatterns = [
     path('', views.execute, name='execute'),
+    path('draw/', views.draw, name='draw')
 ]

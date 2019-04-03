@@ -1,6 +1,10 @@
+import json
+
+from django.http import HttpResponse
 from django.shortcuts import render
 import nbimporter
-from notebooks import DVS_ANALYSIS_FUNCTIONAL
+from notebooks import DVS_ANALYSIS_FUNCTIONAL, wind_rose
+from plotly.offline.offline import _plot_html
 
 
 def execute(request):
@@ -43,3 +47,15 @@ def execute(request):
             'cube': cube[2:-1]
         }
         return render(request, 'execute_functions/home.html', context)
+
+
+def draw(request):
+    interactive = wind_rose.draw_interactive()
+    plot_html, plotdivid, width, height = _plot_html(
+        interactive, None, True, '100%', 525, True, True)
+    response_data = {}
+    response_data['result'] = 'success'
+    response_data['graph'] = plot_html
+    # response_data = json.dumps(response_data)
+    # print(json.loads(response_data))
+    return HttpResponse(json.dumps(response_data), content_type='application/json')
