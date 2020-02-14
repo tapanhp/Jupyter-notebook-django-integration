@@ -1,4 +1,0 @@
-nbformat==4.4.0
-Django==2.2.10
-nbimporter==0.3.1
-nbparameterise==0.3
