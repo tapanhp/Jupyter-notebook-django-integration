@@ -59,30 +59,4 @@
         </div>
 
     </form>
-    <button class="btn btn-primary" id="display"> Generate Interactive graph </button>
-    <script type="text/javascript">
-        $('#display').click(function(){
-            $.ajax(
-                {
-                    type:"GET",
-                    url: "/draw",
-                    success: function( data )
-                    {
-                        var f= "[\"plotly\"]";
-                        var r = "[\"https://cdn.plot.ly/plotly-latest.min.js?_ga=2.229038936.539828835.1554201337-1396761547.1553085411\"]";
-                        graph = data.graph.replace(f,r);
-                        console.log(graph.toString());
-                        console.log(data.graph.toString());
-                        document.getElementById('graph').innerHTML = graph.toString();
-                        eval($('#graph').find("script").text());
-                        {#res = JSON.parse(data);#}
-                        {#res = JSON.parse(res);#}
-                        {#console.log(res);#}
-                    },
-                    error: function(xhr, errormsg, err){
-                        console.log(err);
-                    }
-                })
-        });
-    </script>
 {% endblock %}
